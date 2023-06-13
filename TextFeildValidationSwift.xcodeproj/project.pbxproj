@@ -14,6 +14,7 @@
 		2B41B3762A37120A004757BB /* TextFeildValidationSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B41B3742A37120A004757BB /* TextFeildValidationSwift.xcdatamodeld */; };
 		2B41B3782A371211004757BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B41B3772A371211004757BB /* Assets.xcassets */; };
 		2B41B37B2A371211004757BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B41B3792A371211004757BB /* LaunchScreen.storyboard */; };
+		2B5390F52A38513800B6950B /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5390F42A38513800B6950B /* TextFieldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2B41B3772A371211004757BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B41B37A2A371211004757BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B41B37C2A371211004757BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5390F42A38513800B6950B /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				2B41B36B2A371209004757BB /* AppDelegate.swift */,
 				2B41B36D2A371209004757BB /* SceneDelegate.swift */,
 				2B41B36F2A371209004757BB /* ViewController.swift */,
+				2B5390F42A38513800B6950B /* TextFieldViewController.swift */,
 				2B41B3712A371209004757BB /* Main.storyboard */,
 				2B41B3772A371211004757BB /* Assets.xcassets */,
 				2B41B3792A371211004757BB /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5390F52A38513800B6950B /* TextFieldViewController.swift in Sources */,
 				2B41B3702A371209004757BB /* ViewController.swift in Sources */,
 				2B41B36C2A371209004757BB /* AppDelegate.swift in Sources */,
 				2B41B3762A37120A004757BB /* TextFeildValidationSwift.xcdatamodeld in Sources */,

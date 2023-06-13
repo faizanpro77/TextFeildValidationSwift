@@ -19,11 +19,24 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var submitButton: UIButton!
     
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         resetForm()
         
+    }
+    
+    
+    @IBAction func nextButton(_ sender: Any) {
+        
+        let secondVC = self.storyboard?.instantiateViewController(withIdentifier: "TextFieldViewController")
+        self.navigationController?.pushViewController(secondVC!, animated: true)
+//        secondVC?.modalPresentationStyle = .fullScreen
+//        self.present(secondVC!, animated: true)
+       
     }
     
     func resetForm() {
@@ -107,6 +120,9 @@ class ViewController: UIViewController {
                 {
                     return "Password must contain at least 1 digit"
                 }
+        var result = containsLowerCase(value)
+        print(result,"============>")
+        
                 if containsLowerCase(value)
                 {
                     return "Password must contain at least 1 lowercase character"
